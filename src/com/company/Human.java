@@ -5,4 +5,8 @@ package com.company;
  */
 public class Human extends Player{
 
+    public Human(String name)
+        {
+            super(name, new HumanIntellect());
+    }
 }
