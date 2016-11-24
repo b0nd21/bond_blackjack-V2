@@ -5,6 +5,7 @@ package com.company;
  */
 public class Player {
     Hand hand=new Hand();
+    Bet bet=new Bet();
     Intellect intellect;
     public PlayerState state;
     String name;
